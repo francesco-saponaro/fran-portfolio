@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Le Nuvole",
+        "description": "My very first Project. Front End responsive website for my brother's band.",
+        "languages": [
+            {
+                "language": "HTML5"
+            },
+            {
+                "language": "CSS3"
+            }
+        ],
+        "libraries": [
+            {
+                "library": "Bootstrap5"
+            }
+        ],
+        "github": "https://github.com/francesco-saponaro/Le-nuvole-website",
+        "app": "https://francesco-saponaro.github.io/Le-nuvole-website/"
+    },
+    {
+        "name": "Ramen Locator",
+        "description": "Front End responsive Geolocator application built with HTML5, CSS3, JavaScript and Google Maps API.",
+        "languages": [
+            {
+                "language": "HTML5"
+            },
+            {
+                "language": "CSS3"
+            },
+            {
+                "language": "JavaScript"
+            }
+        ],
+        "other": [
+            {
+                "item": "CSS Grid"
+            },
+            {
+                "item": "CSS Flexbox"
+            },
+            {
+                "item": "Google Maps API"
+            },
+            {
+                "item": "EmailJS API"
+            }
+        ],
+        "github": "https://github.com/francesco-saponaro/ramen-locator",
+        "app": "https://francesco-saponaro.github.io/ramen-locator/"
+    },
+    {
+        "name": "Recipe Cookbook",
+        "description": "“Recipe Cookbook” is a Full Stack application built with HTML5, CSS3, Materialize, Python, Flask, JavaScript, MongoDB and AmCharts. \n It covers basic CRUD operations, along with plenty other features including: searching a recipe by its name or ingredient keyword, filtering by a selection of criteria including multiple allergens and dietary requirements, a profile page containing your recipes and favourite recipes, pagination, statistic charts and other social media type features including, a like and unlike button, comments and the functionality to delete them. \n If you would like to test run this app you can use the following account which has plenty of recipes and history in its name: \n Username: marie \n Password: marie",
+        "languages": [
+            {
+                "language": "HTML5"
+            },
+            {
+                "language": "CSS3"
+            },
+            {
+                "language": "JavaScript"
+            },
+            {
+                "language": "Python"
+            }
+        ],
+        "frameworks": [
+            {
+                "framework": "Flask"
+            }
+        ],
+        "database": "MongoDB",
+        "libraries": [
+            {
+                "library": "Materialize"
+            },
+            {
+                "library": "AmCharts"
+            }
+        ],
+        "github": "https://github.com/francesco-saponaro/recipe-cookbook",
+        "app": "https://recipe-cookbook-fran.herokuapp.com/"
+    },
+    {
+        "name": "Crypthome",
+        "description": "This is a two-part Full Stack application, first being a demo Crypto-trading platform and second a Crypto merchandise e-commerce store. \n This project demonstrates my knowledge in HTML, CSS, Bootstrap5, Javascript, JQuery, Python, Django, SQLite3, PostgreSQL, AmChart, Celery, Django Channels, Redis, Daphne, Github and Heroku. \n It involves basic buying and selling of Cryptocurrencies - a Portfolio page with a statistic chart breakdown of your allocations and an open positions table - Periodic Cryptocurrencies price updates with Celery, Django Channels and Redis - Real payment infrastructure for merchandise with Stripe - CRUD operations. \n It has been a very challenging project, particularly the deployment for Celery with which I got stuck for a good few days. But in the end, as is usually the case when coding,  the emotional reward for finding a solution far outweighed the struggle. \n If you would like to test run this app the user below has plenty of history in its name: \n Username: fran \n Password: codeinstitute",
+        "languages": [
+            {
+                "language": "HTML5"
+            },
+            {
+                "language": "CSS3"
+            },
+            {
+                "language": "JavaScript"
+            },
+            {
+                "language": "Python"
+            }
+        ],
+        "frameworks": [
+            {
+                "framework": "Django"
+            }
+        ],
+        "database": "PostgreSQL",
+        "libraries": [
+            {
+                "library": "JQuery"
+            },
+            {
+                "library": "Bootstrap5"
+            },
+            {
+                "library": "AmCharts"
+            }
+        ],
+        "other": [
+            {
+                "item": "Celery"
+            },
+            {
+                "item": "Django Channels"
+            },
+            {
+                "item": "Redis"
+            },
+            {
+                "item": "Stripe"
+            }
+        ],
+        "github": "https://github.com/francesco-saponaro/crypthome",
+        "app": "https://crypthome.herokuapp.com/"
+    },
+    {
+        "name": "Kanpai",
+        "description": "This is a practice application I have completed following the MERN Stack Full Ecommerce Site - Using React, Redux, Node.js Udemy course, in which I have learned the required MERN skills to build an E-commerce application. I have also took this opportunity to learn how to test the API/HTTP requests with Postman and to test MongoDB's CRUD operations with the Mocha test framework. \n If you would like to test run the website you can use this admin account: \n Username: admin \n Email:test2@test.com \n Password: 123456.",
+        "languages": [
+            {
+                "language": "HTML5"
+            },
+            {
+                "language": "CSS3"
+            },
+            {
+                "language": "JavaScript"
+            }
+        ],
+        "frameworks": [
+            {
+                "framework": "Express"
+            },
+            {
+                "framework": "Mocha"
+            }
+        ],
+        "database": "MongoDB",
+        "libraries": [
+            {
+                "library": "React"
+            },
+            {
+                "library": "Bootstrap6"
+            },
+            {
+                "library": "Mongoose"
+            }
+        ],
+        "other": [
+            {
+                "item": "NodeJS"
+            },
+            {
+                "item": "Stripe"
+            }
+        ],
+        "github": "https://github.com/francesco-saponaro/kanpai",
+        "app": "https://kanpai-whiskeys.herokuapp.com/"
+    }
+]

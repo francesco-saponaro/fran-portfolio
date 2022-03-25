@@ -1,0 +1,550 @@
+[
+    {
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "answers": [
+            {
+                "answer": "<script>",
+                "boolean": "true"
+            },
+            {
+                "answer": "<scripting>"
+            },
+            {
+                "answer": "<javascript>"
+            },
+            {
+                "answer": "<js>"
+            }
+        ]
+
+    },
+    {
+        "question": "What is the correct JavaScript syntax to change the content of the HTML element below? \n <p id='demo'>This is a demonstration.</p>",
+        "answers": [
+            {
+                "answer": "document.getElement('p').innerHTML = 'Hello World!';"
+            },
+            {
+                "answer": "#demo.innerHTML = 'Hello World!';"
+            },
+            {
+                "answer": "document.getElementById('demo').innerHTML = 'Hello World!';",
+                "boolean": "true"
+            },
+            {
+                "answer": "document.getElementByName('p').innerHTML = 'Hello World!';"
+            }
+        ]
+
+    },
+    {
+        "question": "Where is the correct place to insert a JavaScript?",
+        "answers": [
+            {
+                "answer": "The <head> section"
+            },
+            {
+                "answer": "The <body> section"
+            },
+            {
+                "answer": "Both the <head> section and the <body> section are correct",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "answers": [
+            {
+                "answer": "<script src='xxx.js'>",
+                "boolean": "true"
+            },
+            {
+                "answer": "<script href='xxx.js'>"
+            },
+            {
+                "answer": "<script name='xxx.js'>"
+            }
+        ]
+
+    },
+    {
+        "question": "The external JavaScript file must contain the <script> tag.",
+        "answers": [
+            {
+                "answer": "True"
+            },
+            {
+                "answer": "False",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "answers": [
+            {
+                "answer": "msgBox('Hello World');"
+            },
+            {
+                "answer": "alertBox('Hello World');"
+            },
+            {
+                "answer": "alert('Hello World');",
+                "boolean": "true"
+            },
+            {
+                "answer": "msg('Hello World');"
+            }
+        ]
+
+    },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "answers": [
+            {
+                "answer": "function = myFunction()"
+            },
+            {
+                "answer": "function myFunction()",
+                "boolean": "true"
+            },
+            {
+                "answer": "function:myFunction()"
+            }
+        ]
+
+    },
+    {
+        "question": "How do you call a function named 'myFunction'?",
+        "answers": [
+            {
+                "answer": "myFunction()",
+                "boolean": "true"
+            },
+            {
+                "answer": "call function myFunction()"
+            },
+            {
+                "answer": "call myFunction()"
+            }
+        ]
+
+    },
+    {
+        "question": "How to write an IF statement in JavaScript?",
+        "answers": [
+            {
+                "answer": "if i = 5 then"
+            },
+            {
+                "answer": "if i == 5 then"
+            },
+            {
+                "answer": "if (i == 5)",
+                "boolean": "true"
+            },
+            {
+                "answer": "if i = 5"
+            }
+        ]
+
+    },
+    {
+        "question": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+        "answers": [
+            {
+                "answer": "if (i <> 5)"
+            },
+            {
+                "answer": "if (i != 5)",
+                "boolean": "true"
+            },
+            {
+                "answer": "if i =! 5 then"
+            },
+            {
+                "answer": "if i <> 5"
+            }
+        ]
+
+    },
+    {
+        "question": "How does a WHILE loop start?",
+        "answers": [
+            {
+                "answer": "while (i <= 10; i++)"
+            },
+            {
+                "answer": "while i = 1 to 10"
+            },
+            {
+                "answer": "while (i <= 10)",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "How does a FOR loop start?",
+        "answers": [
+            {
+                "answer": "for i = 1 to 5"
+            },
+            {
+                "answer": "for (i = 0; i <= 5; i++)",
+                "boolean": "true"
+            },
+            {
+                "answer": "for (i <= 5; i++)"
+            },
+            {
+                "answer": "for (i = 0; i <= 5)"
+            }
+        ]
+
+    },
+    {
+        "question": "How can you add a comment in a JavaScript?",
+        "answers": [
+            {
+                "answer": "'This is a comment"
+            },
+            {
+                "answer": "//This is a comment",
+                "boolean": "true"
+            },
+            {
+                "answer": "<!--This is a comment-->"
+            }
+        ]
+
+    },
+    {
+        "question": "How to insert a comment that has more than one line?",
+        "answers": [
+            {
+                "answer": "/*This comment has \n more than one line*/",
+                "boolean": "true"
+            },
+            {
+                "answer": "//This comment has \n more than one line//"
+            },
+            {
+                "answer": "<!--This comment has \n more than one line-->"
+            }
+        ]
+
+    },
+    {
+        "question": "What is the correct way to write a JavaScript array?",
+        "answers": [
+            {
+                "answer": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+            },
+            {
+                "answer": "var colors = (1:'red', 2:'green', 3:'blue')"
+            },
+            {
+                "answer": "var colors = ['red', 'green', 'blue]",
+                "boolean": "true"
+            },
+            {
+                "answer": "var colors = 'red', 'green', 'blue'"
+            }
+        ]
+
+    },
+    {
+        "question": "How do you round the number 7.25, to the nearest integer?",
+        "answers": [
+            {
+                "answer": "Math.rnd(7.25)"
+            },
+            {
+                "answer": "rnd(7.25)"
+            },
+            {
+                "answer": "round(7.25)"
+            },
+            {
+                "answer": "Math.round(7.25) ",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "How do you find the number with the highest value of x and y?",
+        "answers": [
+            {
+                "answer": "Math.max(x, y)",
+                "boolean": "true"
+            },
+            {
+                "answer": "top(x, y)"
+            },
+            {
+                "answer": "Math.ceil(x, y)"
+            },
+            {
+                "answer": "ceil(x, y)"
+            }
+        ]
+
+    },
+    {
+        "question": "What is the correct JavaScript syntax for opening a new window called 'w2'?",
+        "answers": [
+            {
+                "answer": "w2 = window.new('http://www.w3schools.com');"
+            },
+            {
+                "answer": "w2 = window.open('http://www.w3schools.com');",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "JavaScript is the same as Java.",
+        "answers": [
+            {
+                "answer": "False",
+                "boolean": "true"
+            },
+            {
+                "answer": "True"
+            }
+        ]
+
+    },
+    {
+        "question": "How can you detect the client's browser name?",
+        "answers": [
+            {
+                "answer": "browser.name"
+            },
+            {
+                "answer": "navigator.appName",
+                "boolean": "true"
+            },
+            {
+                "answer": "client.navName"
+            }
+        ]
+
+    },
+    {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "answers": [
+            {
+                "answer": "onchange"
+            },
+            {
+                "answer": "onmouseclick"
+            },
+            {
+                "answer": "onclick",
+                "boolean": "true"
+            },
+            {
+                "answer": "onmouseover"
+            }
+        ]
+
+    },
+    {
+        "question": "How do you declare a JavaScript variable?",
+        "answers": [
+            {
+                "answer": "variable carName;"
+            },
+            {
+                "answer": "var carName;",
+                "boolean": "true"
+            },
+            {
+                "answer": "v carName;"
+            }
+        ]
+
+    },
+    {
+        "question": "Which operator is used to assign a value to a variable?",
+        "answers": [
+            {
+                "answer": "-"
+            },
+            {
+                "answer": "+"
+            },
+            {
+                "answer": "*"
+            },
+            {
+                "answer": "=",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "What will the following code return: Boolean(10 > 9)",
+        "answers": [
+            {
+                "answer": "NaN"
+            },
+            {
+                "answer": "true",
+                "boolean": "true"
+            },
+            {
+                "answer": "false"
+            }
+        ]
+
+    },
+    {
+        "question": "Is JavaScript case-sensitive?",
+        "answers": [
+            {
+                "answer": "No"
+            },
+            {
+                "answer": "Yes",
+                "boolean": "true"
+            }
+        ]
+
+    },
+    {
+        "question": "JavaScript File Has An Extension of:",
+        "answers": [
+            {
+                "answer": ".Java"
+            },
+            {
+                "answer": ".js",
+                "boolean": "true"
+            },
+            {
+                "answer": ".javascript"
+            },
+            {
+                "answer": ".xml"
+            }
+        ]
+
+    },
+    {
+        "question": "GetMonth() returns The Month as:",
+        "answers": [
+            {
+                "answer": "Int",
+                "boolean": "true"
+            },
+            {
+                "answer": "Float"
+            },
+            {
+                "answer": "Char"
+            },
+            {
+                "answer": "String"
+            }
+        ]
+
+    },
+    {
+        "question": "The Tag is used To Give Heading To The Table.",
+        "answers": [
+            {
+                "answer": "Head"
+            },
+            {
+                "answer": "td"
+            },
+            {
+                "answer": "th",
+                "boolean": "true"
+            },
+            {
+                "answer": "Caption"
+            }
+        ]
+
+    },
+    {
+        "question": "If you type the following code in the console window, what result will you get? \n 3 > 2 > 1 === false;",
+        "answers": [
+            {
+                "answer": "true",
+                "boolean": "true"
+            },
+            {
+                "answer": "false"
+            }
+        ]
+
+    },
+    {
+        "question": "JavaScript is a ___ -side programming language.",
+        "answers": [
+            {
+                "answer": "Client"
+            },
+            {
+                "answer": "Server"
+            },
+            {
+                "answer": "Both",
+                "boolean": "true"
+            },
+            {
+                "answer": "None"
+            }
+        ]
+
+    },
+    {
+        "question": "If the value of x is 40, then what is the output of the following program? \n (x % 10 == 0) ? console.log(“Divisible by 10”) : console.log(“Not divisible by 10”);",
+        "answers": [
+            {
+                "answer": "ReferenceError"
+            },
+            {
+                "answer": "Divisible by 10",
+                "boolean": "true"
+            },
+            {
+                "answer": "Not divisible by 10"
+            },
+            {
+                "answer": "None of the above"
+            }
+        ]
+
+    },
+    {
+        "question": "Which JavaScript label catches all the values, except for the ones specified?",
+        "answers": [
+            {
+                "answer": "catch"
+            },
+            {
+                "answer": "label"
+            },
+            {
+                "answer": "try"
+            },
+            {
+                "answer": "default",
+                "boolean": "true"
+            }
+        ]
+
+    }
+]
