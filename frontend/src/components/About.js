@@ -21,7 +21,7 @@ const About = ({ addBackground, removeBackground }) => {
                 </p>
 
                 {/* CV link */}
-                <a href='/docs/CV_SAPONARO_Francesco_Junior Full Stack Web Developer.pdf' 
+                <a href='/docs/cv.pdf' 
                     target='blank' 
                     className='cta text-decoration-none mt-2'
                     onMouseOver={addBackground}
