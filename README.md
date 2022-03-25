@@ -34,3 +34,6 @@ I have tested the API and HTTP requests with both Postman and Mocha
 * Mocha
 * Github
 * Heroku
+
+## Credits
+The quiz game questions were taken from W3schools own quiz game
