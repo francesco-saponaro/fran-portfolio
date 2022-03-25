@@ -10,7 +10,7 @@ const Project = ({ currentProject }) => {
             <div className='col-12 col-md-8 mb-3'>
             {currentProject.name &&
                 <div className='image-container'>
-                    <img src={`/images/${currentProject.name.replace(/\s/g, '')}.png`} alt='project_image' />
+                    <img src={`/frontend/public/images/${currentProject.name.replace(/\s/g, '')}.png`} alt='project_image' />
                 </div>
             }
             </div>
